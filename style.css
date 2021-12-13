@@ -1,9 +1,10 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
 header {
-  background: #bbbbbb;
-  padding: 20px 0; /* espasamento interno */
+  background: #bbbbbb;/*formas de cores bínario,númerico,hexadecimal,RGB*/
+  padding: 20px 0; /* espasamento interno do elemento */
 }
 
 .caixa {
@@ -95,7 +96,7 @@ main {
   
 }
 form {
-  margin: 40px 0;
+  margin: 40px 40px;
 }
 form label,form legend {
   display: block;
@@ -134,7 +135,7 @@ select {
   transform: scale(1.2);
 }
 table {
-  margin: 20px 0 40px;
+  margin: 20px 0 40px 40px;
 }
 thead {
   background: #555555;
@@ -243,3 +244,4 @@ margin: 0 auto;
   
 
 }
+
